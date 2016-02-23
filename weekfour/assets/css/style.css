@@ -1,0 +1,16 @@
+/*
+*{
+    background-color: aqua;
+}*/
+header{
+    background-color:RGB(255,100,100);
+}
+#head1{
+    font-style: normal;
+    font-size: larger;
+    color: royalblue;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
