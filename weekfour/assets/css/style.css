@@ -3,13 +3,38 @@
     background-color: aqua;
 }*/
 header{
-    background-color:RGB(255,100,100);
+    /*header background colouring*/
+    background-color:cornflowerblue;
+
+    /*Content area*/
+    height: 200px;
+    width: 300px;
+
+    /*Padding*/
+    padding-left: 30px;
+    padding-top: 10px;
+
+    /*Border*/
+    border-color: darkorchid;
+    border-style: solid;
+    border-width: 5px;
+
+    /*Margin*/
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
-#head1{
-    font-style: normal;
-    font-size: larger;
-    color: royalblue;
+#noMaxWidth{
+    width:1000px;
+    background-color: burlywood;
 }
+
+#hasMaxWidth{
+    max-width: 1000px;
+    background-color: burlywood;
+}
+
 img{
     width: 150px;
     height: 150px;
