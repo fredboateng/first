@@ -10,9 +10,10 @@ main {
     padding: 10px;
 
     display: flex;
+    flex-direction: row;
 
 }
-
+/*
 #cont1 {
     background-color: gold;
 
@@ -24,4 +25,11 @@ main {
 
 #cont3 {
     background-color: saddlebrown;
+}
+*/
+
+.container {
+    background-color: gold;
+    height: 500px;
+    width: 500px;
 }
