@@ -1,0 +1,27 @@
+body {
+    background-color: cornflowerblue;
+}
+
+main {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aliceblue;
+    padding: 10px;
+
+    display: flex;
+
+}
+
+#cont1 {
+    background-color: gold;
+
+}
+#cont2 {
+    background-color: silver;
+
+}
+
+#cont3 {
+    background-color: saddlebrown;
+}
