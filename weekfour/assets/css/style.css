@@ -2,13 +2,18 @@
 *{
     background-color: aqua;
 }*/
+html{
+    height: auto;
+    width:auto;
+    margin: 50px auto 50px;
+}
 header{
     /*header background colouring*/
     background-color:cornflowerblue;
 
     /*Content area*/
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: auto;
 
     /*Padding*/
     padding-left: 30px;
@@ -26,15 +31,56 @@ header{
     margin-right: auto;
 }
 #noMaxWidth{
-    width:1000px;
-    background-color: burlywood;
+    max-width:800px;
+    background-color: aqua;
+    position: relative;
 }
 
 #hasMaxWidth{
-    max-width: 1000px;
-    background-color: burlywood;
+    max-width: 800px;
+    background-color: yellowgreen;
+}
+#hasMaxWidth1{
+    max-width: 800px;
+    background-color: rebeccapurple;
+    position: relative;
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+}
+#mugContainer1{
+    background-color: darkgray;
+    width: 29%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+#mugContainer2{
+    background-color: bisque;
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+}
+#mugContainer3{
+    background-color: lavender;
+    width: 29%;
+    float: right;
+    margin: 1%;
+    padding: 1%;
+}
 img{
     width: 150px;
     height: 150px;
