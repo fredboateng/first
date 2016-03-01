@@ -58,3 +58,15 @@ footer{
     position: relative;
     padding-top: 10px;
 }
+#newsbar1{
+    background-color:#DBC9DF;
+}
+#newsbar2{
+    background-color:#782A7E;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 h2 h3{
+    font-family: 'Roboto light', sans-serif;
+}
