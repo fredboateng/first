@@ -1,0 +1,40 @@
+body{
+    background-color:cornflowerblue;
+}
+
+main{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    /*flex-direction: row-reverse; must taken to ensure that
+    the programmer has control of the order of the sections*/
+    justify-content: space-between;
+}
+.container{
+    /*background-color: gold;can be overridden by colours for specific sections */
+    /*height: 100px;*/
+    /* flex-grow: 1; evenly divides the sections
+    width: 100px; must be taken out to ensure flex grow works*/
+    margin: 10px;
+}
+
+#cont1{
+    background-color: gold;
+    order: 1;
+    flex-grow: 1;
+}
+
+#cont2{
+    background-color: silver;
+    order: 2;
+    flex-grow: 3;
+}
+
+#cont3{
+    background-color: saddlebrown;
+    order: 3;
+    flex-grow: 2;
+}
