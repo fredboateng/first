@@ -36,3 +36,16 @@ if($name == "Simon"){
 }else{
     print "Who are you";
 }
+
+echo "<br>";
+echo "<br>";
+
+$myage1 = 16;
+$name1 = "Fred";
+if($myage1> 16){
+    print $name1." buy specs";
+}elseif($myage1>18){
+    print $name1." buy mugs";
+}elseif($myage1>21){
+    print $name1." buy sausage rolls";
+}
