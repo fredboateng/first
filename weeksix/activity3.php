@@ -13,7 +13,7 @@ echo "Hello," . " " . "world" . "!"."<br>";
 // printing sample arithmetic
 
 echo 5*7;
-
+echo "<br>";
 // start using variables
 
 $myname = "Frodo Baggins"."<br>";
