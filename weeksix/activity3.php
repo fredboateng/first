@@ -20,4 +20,3 @@ $myname = "Frodo Baggins"."<br>";
 $myage = 111;
 echo "My name is ".$myname." and I am ".$myage;
 
-dfd
