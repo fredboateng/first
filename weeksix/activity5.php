@@ -17,3 +17,23 @@ $provisionedActivities = array("Specs","Drugs","Rock and Roll");
 foreach($provisionedActivities as $x){
     print "<p>$x</p>";
 }
+echo"<br>";
+$provisions = array("specs", "mugs", "sausage rolls");
+
+foreach($provisions as $x){
+    print "<p>$x</p>";
+}
+echo"<br>";
+$provisions[1]="hugs";
+
+foreach($provisions as $x){
+    print "<p>$x</p>";
+}
+
+echo"<br>";
+
+unset($provisions[2]);
+
+foreach($provisions as $x){
+    print "<p>$x</p>";
+}
