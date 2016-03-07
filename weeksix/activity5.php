@@ -13,3 +13,7 @@ echo $myArray[1]; // outputs "la"
 echo "<br>";
 unset($myArray[2]);
 
+$provisionedActivities = array("Specs","Drugs","Rock and Roll");
+foreach($provisionedActivities as $x){
+    print "<p>$x</p>"
+}
