@@ -40,6 +40,8 @@ if($name == "Simon"){
 echo "<br>";
 echo "<br>";
 
+// activity three
+
 $myage1 = 16;
 $name1 = "Fred";
 if($myage1<=16){
@@ -49,3 +51,5 @@ if($myage1<=16){
 }elseif($myage1>21){
     print $name1." buy sausage rolls";
 }
+
+
