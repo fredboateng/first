@@ -27,3 +27,11 @@ echo "I get printed";
 
 /* I don't get printed either
 and neither do I */
+
+// comparisons
+$name = "Edgar";
+if($name == "Simon"){
+    print "I know you!";
+}else{
+    print "Who are you";
+}
