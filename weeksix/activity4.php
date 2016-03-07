@@ -23,7 +23,7 @@ switch($numberOfHobbits){
 echo "<br>";
 echo "<br>";
 // activity four
-$wantedgood ="mugs";
+$wantedgood ="specs";
 switch($wantedgood){
     case "specs":
         echo "You have to be 16 to by specs";
