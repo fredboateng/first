@@ -12,8 +12,8 @@ $myArray[1]="la"; // modifies position 1 (re)
 echo $myArray[1]; // outputs "la"
 echo "<br>";
 unset($myArray[2]);
-
+echo "<br>";
 $provisionedActivities = array("Specs","Drugs","Rock and Roll");
 foreach($provisionedActivities as $x){
-    print "<p>$x</p>"
+    print "<p>$x</p>";
 }
