@@ -5,10 +5,10 @@
  * Date: 07/03/2016
  * Time: 09:57
  */
-echo "Hello, world";
+echo "Hello, world\n";
 
 // concatenation in php
-echo "Hello," . " " . "world" . "!";
+echo "Hello," . " " . "world" . "!"."\n";
 
 // printing sample arithmetic
 
