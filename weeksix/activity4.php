@@ -20,6 +20,8 @@ switch($numberOfHobbits){
         echo "All hobbits have gone home";
 }
 
+echo "<br>";
+echo "<br>";
 // activity four
 $wantedgood ="mugs";
 switch($wantedgood){
