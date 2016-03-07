@@ -27,7 +27,8 @@ echo "I get printed";
 
 /* I don't get printed either
 and neither do I */
-
+echo "<br>";
+echo "<br>";
 // comparisons
 $name = "Edgar";
 if($name == "Simon"){
