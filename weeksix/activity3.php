@@ -16,7 +16,7 @@ echo 5*7;
 echo "<br>";
 // start using variables
 
-$myname = "Frodo Baggins"."<br>";
+$myname = "Frodo Baggins";
 $myage = 111;
 echo "My name is ".$myname." and I am ".$myage;
 
