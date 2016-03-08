@@ -34,10 +34,16 @@ strpos("emily", "ily"); // 2
 strpos("emily", "zxc"); // false
 
 
-$round = $round(M_PI);
+$round = round(M_PI);
 print $round; // prints 3
 
 // This time, round pi to 4 places
-$round_decimal = $round(M_PI,4);
+$round_decimal = round(M_PI,4);
 print $round_decimal; // prints 3.1416
+
+// prints a number between 0 and 32767
+print rand();
+
+// prints a number between 1 and 10
+print round(1,10);
 
