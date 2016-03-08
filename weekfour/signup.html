@@ -23,16 +23,25 @@
     <h2>Signup Form</h2>
     <div id="signupbox">
         <form name="signup" action="index_submit" method="get">
-            <label for="name">FirstName</label>
-            <input type="text" name="name" placeholder="Whats your call signal?" required>
-            <label for="dob">Date of Birth</label>
-            <input type="text" name="dob" placeholder="Whats your DOB" required>
-            <label for="email">Email</label>
-            <input type="email" name="usermail" placeholder="yourname@email.com" required>
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="password" required>
-            <label for="password2">Retype Password</label>
-            <input type="password" name="password" placeholder="password" required>
+
+
+            <table>
+                <tr><td><label for="name">FirstName</label></td>
+                    <td> <input type="text" name="name" placeholder="Whats your call signal?" required></td>
+                </tr>
+                <tr><td><label for="dob">Date of Birth</label></td>
+                    <td><input type="text" name="dob" placeholder="Whats your DOB" required></td>
+                </tr>
+                <tr><td><label for="email">Email</label></td>
+                    <td><input type="email" name="usermail" placeholder="yourname@email.com" required></td>
+                </tr>
+                <tr><td> <label for="password">Password</label></td>
+                    <td><input type="password" name="password" placeholder="password" required></td>
+                </tr>
+                <tr><td><label for="password2">Retype Password</label></td>
+                    <td><input type="password" name="password" placeholder="password" required></td>
+                </tr>
+            </table>
             <input type="submit" value="Signup">
         </form>
     </div>
