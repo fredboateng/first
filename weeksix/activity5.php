@@ -13,11 +13,17 @@ echo $myArray[1]; // outputs "la"
 echo "<br>";
 unset($myArray[2]);
 echo "<br>";
+
+// builds an array
 $provisionedActivities = array("Specs","Drugs","Rock and Roll");
+
+// iterates and prints the elements of the array each in a paragraph
 foreach($provisionedActivities as $x){
     print "<p>$x</p>";
 }
 echo"<br>";
+
+// activity - specs mugs and sausage rolls III
 $provisions = array("specs", "mugs", "sausage rolls");
 
 foreach($provisions as $x){
@@ -36,4 +42,9 @@ unset($provisions[2]);
 
 foreach($provisions as $x){
     print "<p>$x</p>";
+}
+
+// for loops
+for($i = 1; $i < 10; $i++){
+   echo"<p>Hello!</p>";
 }
