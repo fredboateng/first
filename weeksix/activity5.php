@@ -51,7 +51,7 @@ for($i = 1; $i < 10; $i++){
 
 for($i = 1; $i <= 30; $i++){
     $position = array("st","nd","rd","th");
-    if($i<4 || $i>30){
+    if($i<4 || $i>20){
         $a=$i%10;
         $y="";
         switch($a){
