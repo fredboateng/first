@@ -28,7 +28,7 @@ echo "<br>";
 $lowercase = strtolower($uppercase);
 print $lowercase;
 // prints david
-
+echo "<br>";
 // find the position
 strpos("emily", "e"); //0
 strpos("emily", "i"); //2
