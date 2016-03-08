@@ -48,3 +48,25 @@ foreach($provisions as $x){
 for($i = 1; $i < 10; $i++){
    echo"<p>Hello!</p>";
 }
+
+for($i = 1; $i <= 30; $i++){
+    $position = array("st","nd","rd","th");
+    if($i<4 || $i<20){
+        $a=$i%10;
+        $y="";
+        switch($a){
+            case 1: $y=$position[$a-1];
+                break;
+            case 2: $y=$position[$a-1];
+                break;
+            case 3: $y=$position[$a-1];
+                break;
+            default:$y=$position[$a-1];
+        }
+    }else{
+        $y=$position[3];
+    }
+    if($i%2 == 0){
+        print "On the ".$i.$y."of the month no products are available";
+    }
+}
