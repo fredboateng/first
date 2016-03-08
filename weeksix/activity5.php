@@ -66,18 +66,19 @@ for($i = 1; $i <= 30; $i++){
     }else{
         $y=$position[3];
     }
-    if($i%2 == 0){
+    if($i%2 == 0 && $i%4!==0 ){
         echo "On the ".$i.$y." of the month specs are available";
+        echo "<br>";
+    }
+    elseif($i%2 == 0&&$i%4==0 ){
+        echo "On the ".$i.$y." of the month specs and sausage rolls are available";
         echo "<br>";
     }
     elseif($i%3==0){
         echo "On the ".$i.$y." of the month mugs are available";
         echo "<br>";
     }
-    elseif($i%4==0){
-        echo "On the ".$i.$y." of the month specs and sausage rolls are available";
-        echo "<br>";
-    }
+
 
     else{
         echo "On the ".$i.$y." of the month no products are available";
