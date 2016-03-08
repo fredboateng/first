@@ -11,18 +11,20 @@
 $length = strlen("david");
 print $length;
 
+echo "<br>";
+
 $myname = "David";
 
 // you can manipulate strings easily
 // and with built-in functions too
 $partial = substr($myname,0,3);
 print $partial; // prints "dav"
-
+echo "<br>";
 // UPPER CASE and lower case functions
 $uppercase = strtoupper($myname);
 print $uppercase;
 // prints DAVID
-
+echo "<br>";
 $lowercase = strtolower($uppercase);
 print $lowercase;
 // prints david
@@ -36,14 +38,14 @@ strpos("emily", "zxc"); // false
 
 $round = round(M_PI);
 print $round; // prints 3
-
+echo "<br>";
 // This time, round pi to 4 places
 $round_decimal = round(M_PI,4);
 print $round_decimal; // prints 3.1416
-
+echo "<br>";
 // prints a number between 0 and 32767
 print rand();
-
+echo "<br>";
 // prints a number between 1 and 10
 print round(1,10);
 
