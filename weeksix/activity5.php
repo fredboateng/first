@@ -49,6 +49,7 @@ for($i = 1; $i < 10; $i++){
    echo"<p>Hello!</p>";
 }
 
+// for loops activity
 for($i = 1; $i <= 30; $i++){
     $position = array("st","nd","rd","th");
     if($i<4 || ($i>20 && $i<24)){
@@ -70,7 +71,7 @@ for($i = 1; $i <= 30; $i++){
         echo "On the ".$i.$y." of the month specs are available";
         echo "<br>";
     }
-    elseif($i%2 == 0&&$i%4==0 ){
+    elseif($i%2 == 0 && $i%4==0 ){
         echo "On the ".$i.$y." of the month specs and sausage rolls are available";
         echo "<br>";
     }
