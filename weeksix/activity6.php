@@ -47,3 +47,10 @@ print rand();
 // prints a number between 1 and 10
 print round(1,10);
 
+$fav_bands = array();
+array_push($fav_bands,"Katy Perry");
+array_push($fav_bands,"The Peopods");
+array_push($fav_bands,"Nickelback");
+
+print count($fav_bands);
+
