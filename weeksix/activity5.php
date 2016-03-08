@@ -67,7 +67,7 @@ for($i = 1; $i <= 30; $i++){
         $y=$position[3];
     }
     if($i%2 == 0){
-        print "On the ".$i.$y."of the month no products are available";
-        echo"<br>";
+        echo "On the ".$i.$y." of the month no products are available";
+        echo "<br>";
     }
 }
