@@ -70,4 +70,12 @@ for($i = 1; $i <= 30; $i++){
         echo "On the ".$i.$y." of the month no products are available";
         echo "<br>";
     }
+    elseif($i%3==0){
+        echo "On the ".$i.$y." of the month no products are available";
+        echo "<br>";
+    }
+    else{
+        echo "On the ".$i.$y." of the month no products are available";
+        echo "<br>";
+    }
 }
