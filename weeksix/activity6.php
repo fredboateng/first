@@ -28,7 +28,16 @@ print $lowercase;
 // prints david
 
 // find the position
-strpos("emily", "e");
-strpos("emily", "i");
-strpos("emily", "ily");
-strpos("emily", "zxc");
+strpos("emily", "e"); //0
+strpos("emily", "i"); //2
+strpos("emily", "ily"); // 2
+strpos("emily", "zxc"); // false
+
+
+$round = $round(M_PI);
+print $round; // prints 3
+
+// This time, round pi to 4 places
+$round_decimal = $round(M_PI,4);
+print $round_decimal; // prints 3.1416
+
