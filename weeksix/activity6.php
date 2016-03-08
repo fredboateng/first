@@ -10,3 +10,13 @@
 // get the length of a string and print it to the screen
 $length = strlen("david");
 print $length;
+
+$myname = "David";
+
+// you can manipulate strings easily
+// and with built-in functions too
+$partial = substr($myname,0,3);
+print $partial; // prints "dav"
+
+
+
