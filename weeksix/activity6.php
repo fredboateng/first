@@ -66,3 +66,15 @@ echo "<br>";
 $array = array(5, 3, 7, 1);
 rsort($array);
 print join(":",$array);
+echo"<br>";
+
+$stakers = array("Kofi", "Fred", "Yaw", "Jibolo", "Emma", "Aaron", "Harry", "Wale","Wood");
+$prizes = array("mugs", "specs", "sausage rolls");
+$stakers = sort($stakers);
+for($i = 0; $i<3; $i++){
+    $x = rand(0,count($stakers)-1);
+    $y = $stakers[$x];
+    $z = $prizes[$i];
+    print $y." has won all the ".$z;
+    unset($stakers[$x]);
+}
