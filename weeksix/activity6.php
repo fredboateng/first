@@ -92,7 +92,7 @@ function squareValue($number){
 }
 
 squareValue(6);
-
+echo "<br>";
 // activity vii
 function cleanUp($personName, $specsNum, $mugsNum, $sausageNum){
     echo "Wanted: ".$personName;
