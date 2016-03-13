@@ -92,3 +92,23 @@ function squareValue($number){
 }
 
 squareValue(6);
+
+// activity vii
+function cleanUp($personName, $specsNum, $mugsNum, $sausageNum){
+    echo "Wanted: ".$personName;
+    echo "<br>";
+    echo "Knwon to be in possession of the following items:";
+    echo "<br>";
+    echo "Specs (".$specsNum.")";
+    echo "<br>";
+    echo "Mugs (".$mugsNum.")";
+    echo "<br>";
+    echo "Sausage Rolls (".$sausageNum.")";
+    echo "<br>";
+    $x = ($sausageNum*$mugsNum*$sausageNum);
+    $y = 10*(pow($x,2)/2);
+    echo "Award for capture: £".$y;
+    echo "<br>";
+}
+
+cleanUp("Fred Boateng",4,3,2);
