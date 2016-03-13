@@ -47,7 +47,7 @@ echo "<br>";
 print rand();
 echo "<br>";
 // prints a number between 1 and 10
-print round(1,10);
+print randd(1,10);
 echo "<br>";
 $fav_bands = array();
 array_push($fav_bands,"Katy Perry");
@@ -56,3 +56,13 @@ array_push($fav_bands,"Nickelback");
 
 print count($fav_bands);
 
+echo"<br>";
+// sorting an array
+$array = array(5, 3, 7, 1);
+sort($array);
+print join(", ",$array); // separates the final output with a comma and space
+echo "<br>";
+
+$array = array(5, 3, 7, 1);
+rsort($array);
+print join(":",$array);
