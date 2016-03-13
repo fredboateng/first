@@ -75,6 +75,7 @@ for($i = 0; $i<3; $i++){
     $x = rand(0,count($stakers)-1);
     $y = $stakers[$x];
     $z = $prizes[$i];
-    print $y." has won all the ".$z;
+    echo $y." has won all the ".$z;
+    echo "<br>";
     unset($stakers[$x]);
 }
