@@ -74,7 +74,7 @@ $staker = sort($stakers);
 for($i = 0; $i<3; $i++){
     $x = rand(0,count($stakers)-1);
     $y = $staker[$x];
-    echo $x;
+    echo $y;
     echo "<br>";
     $z = $prizes[$i];
     echo $y." has won all the ".$z;
