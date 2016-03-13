@@ -73,7 +73,7 @@ $prizes = array("mugs", "specs", "sausage rolls");
 $staker = sort($stakers);
 for($i = 0; $i<3; $i++){
     $x = rand(0,count($stakers)-1);
-    $y = $staker[$x];
+    $y = $staker[1];
     echo $y;
     echo "<br>";
     $z = $prizes[$i];
