@@ -68,12 +68,13 @@ rsort($array);
 print join(":",$array);
 echo"<br>";
 
-$stakers = array("Kofi", "Fred", "Yaw", "Jibolo", "Emma", "Aaron", "Harry", "Wale","Wood");
-$prizes = array("mugs", "specs", "sausage rolls");
-$staker = sort($stakers);
+
 for($i = 0; $i<3; $i++){
+    $stakers = array("Kofi", "Fred", "Yaw", "Jibolo", "Emma", "Aaron", "Harry", "Wale","Wood");
+    $prizes = array("mugs", "specs", "sausage rolls");
+    $staker = sort($stakers);
+    $y = $staker[$x];
     $x = rand(0,count($stakers)-1);
-    $y = $staker[1];
     echo $y;
     echo "<br>";
     $z = $prizes[$i];
