@@ -85,7 +85,7 @@ for($i = 0; $i<3; $i++){
     echo "<br>";
     unset($wins[$x]);
 }
-
+echo "<br>";
 
 function squareValue($number){
     echo $number * $number;
