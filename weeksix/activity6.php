@@ -70,10 +70,10 @@ echo"<br>";
 
 $stakers = array("Kofi", "Fred", "Yaw", "Jibolo", "Emma", "Aaron", "Harry", "Wale","Wood");
 $prizes = array("mugs", "specs", "sausage rolls");
-$stakers = sort($stakers);
+$staker = sort($stakers);
 for($i = 0; $i<3; $i++){
     $x = rand(0,count($stakers)-1);
-    $y = $stakers[$x];
+    $y = $staker[$x];
     $z = $prizes[$i];
     echo $y." has won all the ".$z;
     echo "<br>";
