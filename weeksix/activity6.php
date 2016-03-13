@@ -73,12 +73,12 @@ for($i = 0; $i<3; $i++){
     $stakers = array("Kofi", "Fred", "Yaw", "Jibolo", "Emma", "Aaron", "Harry", "Wale","Wood");
     $prizes = array("mugs", "specs", "sausage rolls");
     $staker = sort($stakers);
-    $y = $staker[$x];
+    //$y = $staker[$x];
     $x = rand(0,count($stakers)-1);
-    echo $x;
+    echo $staker[$x] ;
     echo "<br>";
     $z = $prizes[$i];
-    echo $y." has won all the ".$z;
+    echo " has won all the ".$z;
     echo "<br>";
     unset($stakers[$x]);
 }
