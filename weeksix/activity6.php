@@ -74,7 +74,7 @@ for($i = 0; $i<3; $i++){
     $winners = sort($wins);
     $x = rand(0,count($wins)-1);
     $y = $wins[$x];
-    echo $wins[$x] ;
+    echo $y;
     echo "<br>";
     $z = $prizes[$i];
     echo " has won all the ".$z;
