@@ -47,7 +47,7 @@ echo "<br>";
 print rand();
 echo "<br>";
 // prints a number between 1 and 10
-print randd(1,10);
+print rand(1,10);
 echo "<br>";
 $fav_bands = array();
 array_push($fav_bands,"Katy Perry");
