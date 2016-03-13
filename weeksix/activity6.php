@@ -68,6 +68,8 @@ rsort($array);
 print join(":",$array);
 echo"<br>";
 
+// activity- specs, mugs and sausage rolls vi
+
 $wins = array("Kofi", "Fred", "Yaw", "Jibolo", "Emma", "Aaron", "Harry", "Wale","Wood");
 for($i = 0; $i<3; $i++){
     $prizes = array("mugs", "specs", "sausage rolls");
@@ -83,3 +85,10 @@ for($i = 0; $i<3; $i++){
     echo "<br>";
     unset($wins[$x]);
 }
+
+
+function squareValue($number){
+    echo $number * $number;
+}
+
+squareValue(6);
