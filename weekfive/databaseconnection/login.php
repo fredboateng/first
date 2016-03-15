@@ -13,9 +13,10 @@ if(empty($_POST["username"])||empty($_POST["password"])){
    $username = $_POST['username'];
     $password = $_POST['password'];
     echo $username;
-    /*  $sql = "SELECT uid FROM users WHERE username='$username' and
-         password='$password'";/*
-
+     $sql = "SELECT uid FROM users WHERE username='$username' and
+         password='$password'";
+    echo $username;
+/* /*
      $result = mysqli_query($dp, $sql);
 
      if (mysqli_num_row($result) == 1) {
