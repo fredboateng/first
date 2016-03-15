@@ -17,9 +17,11 @@ if(empty($_POST["username"])||empty($_POST["password"])){
     $sql="SELECT * FROM users WHERE username='$username' and password='$password'";
 
      $result = mysqli_query($db, $sql);
-
+echo "im here";
      if (mysqli_num_rows($result) == 1) {
+         echo "AAAHHHH!";
          header("location:home.php");
+
      } else {
          echo "Incorrect username or password.";
 
