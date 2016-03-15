@@ -5,7 +5,7 @@
  * Date: 14/03/2016
  * Time: 18:01
  */
-include (connection.php);
+include ("connection.php");
 if(empty($_POST["username"])||empty($_POST["password"])){
     echo "Both fields are required.";
 }else {
