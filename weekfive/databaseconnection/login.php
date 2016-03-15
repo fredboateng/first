@@ -9,18 +9,19 @@ include ("connection.php");
 if(empty($_POST["username"])||empty($_POST["password"])){
     echo "Both fields are required.";
 }else {
-    echo "helleo";
+    //echo "helleo";
    $username = $_POST['username'];
     $password = $_POST['password'];
-    echo $username;
+    //echo $username;
     $sql="SELECT uid FROM users WHERE username='$username' and password='$password'";
     echo $username;
 
      $result = mysqli_query($db, $sql);
 
      if (mysqli_num_row($result) == 1) {
-         //header("location:home.php");
-         echo "hello";
+         header("location:home.php");
+          echo "sucess";
+        // echo "hello";
      } else {
          echo "Incorrect username or password.";
 
