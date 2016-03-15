@@ -12,17 +12,14 @@ if(empty($_POST["username"])||empty($_POST["password"])){
     //echo "helleo";
    $username = $_POST['username'];
     $password = $_POST['password'];
-    echo $username . "<br>";
-    echo $password . "<br>";
+    //echo $username . "<br>";
+   // echo $password . "<br>";
     $sql="SELECT * FROM users WHERE username='$username' and password='$password'";
-    //echo $username;
 
      $result = mysqli_query($db, $sql);
 
      if (mysqli_num_row($result) == 1) {
          header("location:home.php");
-          echo "sucess";
-        // echo "hello";
      } else {
          echo "Incorrect username or password.";
 
