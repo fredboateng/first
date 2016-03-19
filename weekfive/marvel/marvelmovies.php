@@ -34,7 +34,7 @@ $result = mysqli_query($db,$sql);
             while($row = $result -> fetch_array()){
                 echo "<tr>";
                 echo "<td>" . $row['title'] . "</td>>";
-               // echo "<td>".$row['productionStudio']."</td>>";
+                echo "<td>".$row['productionStudio']."</td>>";
                 echo "</tr>";
             }
         ?>
