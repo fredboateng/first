@@ -39,7 +39,7 @@ $result = mysqli_query($dp,$sql);
                 echo "<td>". $row['title']."</td>";
                 echo "<td>". $row['productionStudio']."</td>";
                 echo "<td>". $row['notes']."</td>";
-                echo "<tr>";
+                echo "</tr>";
             }
         ?>;
     </table>
