@@ -6,7 +6,7 @@
  * Time: 09:43
  */
 include ("connection.php");
-$sql = "SELECT title FROM marvelmovies WHERE productionStudio like 'Marvel%'";
+$sql = "SELECT title, produtionStudio FROM marvelmovies WHERE productionStudio like 'Marvel%'";
 $result = mysqli_query($db,$sql);
 ?>
 
