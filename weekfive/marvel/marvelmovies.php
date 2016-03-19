@@ -30,6 +30,7 @@ $result = mysqli_query($db,$sql);
             <th>Production Studio</th>
         </tr>
         <?php
+        echo $result;
             while($row = $result -> fetch_array()){
                 echo "<tr>";
                 echo "<td>".$row['title']."</td>>";
