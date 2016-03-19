@@ -6,7 +6,7 @@
  * Time: 09:43
  */
 include ("connection.php");
-$sql = "SELECT title, productionStudio FROM marvelmovies WHERE productionStudio = 'Marvel Studio'";
+$sql = "SELECT title FROM marvelmovies WHERE productionStudio = 'Marvel Studio'";
 $result = mysqli_query($db,$sql);
 ?>
 
@@ -34,7 +34,7 @@ $result = mysqli_query($db,$sql);
             while($row = $result -> fetch_array()){
                 echo "<tr>";
                 echo "<td>".$row['title']."</td>>";
-                echo "<td>".$row['productionStudio']."</td>>";
+               // echo "<td>".$row['productionStudio']."</td>>";
                 echo "</tr>";
             }
         ?>
