@@ -7,7 +7,7 @@
  */
 include ("connection.php");
 $sql = "SELECT * FROM marvelmovies";
-$result = mysqli_query($dp,$sql);
+$result = mysqli_query($db,$sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +41,7 @@ $result = mysqli_query($dp,$sql);
                 echo "<td>". $row['notes']."</td>";
                 echo "</tr>";
             }
-        ?>;
+        ?>
     </table>
 </main>
 <footer>
@@ -49,3 +49,4 @@ $result = mysqli_query($dp,$sql);
 </footer>
 
 </body>
+</html>
