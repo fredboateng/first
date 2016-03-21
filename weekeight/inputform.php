@@ -17,6 +17,16 @@
     <label>Forename</label><input type="text" name="forename"><br>
     <label>Surname</label><input type="text" name="surname"><br>
     <!-- <input type="submit" value="Submit"> -->
+    <p></p>
+    <p></p>
+
+    <!-- Activity - Creating a SuperHero -->
+    <label>Forename</label><input type="text" name="heroforename"><br>
+    <label>Surname</label><input type="text" name="herosurname"><br>
+    <label>Gender</label><input type="text" name="gender"><br>
+    <label>Main Superhero Power</label><input type="text" name="power"><br>
+    <input type="submit" value="Submit">
+
 </form>
 </body>
 </html>
