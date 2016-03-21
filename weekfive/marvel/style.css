@@ -2,6 +2,7 @@ body{
     max-width:960px;
     margin-right: auto;
     margin-left: auto;
+    border: solid black 5px;
 }
 table, td, th{
     border: 1px solid black;
