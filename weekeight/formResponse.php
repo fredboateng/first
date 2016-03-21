@@ -15,8 +15,8 @@ echo "<br>";
 $heroforename =$_POST["heroforename"];
 $herosurname =$_POST["herosurname"];
 $gender = $_POST["gender"];
-$power = $_POST["poweer"];
+$power = $_POST["power"];
 
 echo"The name of my superhero is {$heroforename} {$herosurname}";
 echo"<br>";
-echo"{$gender} is his gender. His greatest power is the {$power}";
+echo"{$gender} is his gender. His greatest power is {$power}";
