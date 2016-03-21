@@ -10,7 +10,7 @@ $surname = $_POST["surname"];
 echo $forename ." ". $surname;
 echo "<br>";
 echo "My name is {$forename} {$surname}.";
-
+echo "<br>";
 // superhero details
 $heroforename =$_POST["heroforename"];
 $herosurname =$_POST["herosurname"];
