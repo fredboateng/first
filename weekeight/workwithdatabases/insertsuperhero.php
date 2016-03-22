@@ -18,7 +18,6 @@ $lastname = $_POST["lastname"];
 $mainpower = $_POST["mainpower"];
 echo $firstname;
 
-//$sql = "INSERT INTO superheros(firstName,lastName,mainSuperpower)
-     //   VALUE ('$firstname','$lastname','$mainpower')";
+$sql = "INSERT INTO superheros(firstName,lastName,mainSuperpower) VALUES ('$firstname','$lastname','$mainpower')";
 
-//mysqli_query($db,$sql);
+mysqli_query($db,$sql);
