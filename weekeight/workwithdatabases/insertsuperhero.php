@@ -6,6 +6,12 @@
  * Time: 10:26
  */
 //include("newconnection.php");
+$db = new mysqli(
+    "ap-cdbr-azure-east-c.cloudapp.net",
+    "bb8e5351eccd82",
+    "e5d86e49",
+    "kofifred"
+);
 
 $firstname = $_POST["forename"];
 $lastname = $_POST["lastname"];
