@@ -17,14 +17,14 @@ $password = $_POST["password"];
 $sql = "INSERT INTO users(username, password)VALUES ('$fullname','$password')";
 
 // run query
-mysqli_query($db,$sql);
+// mysqli_query($db,$sql); it should be at a time
 
-// confirm insert or give an error message
+// or run query and give an error message
 if(mysqli_query($db,$sql)){
-    echo "input inserted";
+
 }else{
     echo "Error ".$sql."<br>".mysqli_error($db);
 }
 
 // redirection
-//header("location:viewusers.php");
+header("location:viewusers.php");
