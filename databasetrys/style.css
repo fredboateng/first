@@ -4,3 +4,8 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+form{
+    border: solid;
+    border-width: 5px;
+    background-color: darkslateblue;
+}
