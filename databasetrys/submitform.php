@@ -27,4 +27,4 @@ if(mysqli_query($db,$sql)){
 }
 
 // redirection
-header("location:viewusers.php");
+//header("location:viewusers.php");
