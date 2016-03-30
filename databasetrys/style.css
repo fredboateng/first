@@ -14,7 +14,8 @@ input{
     width: 80%;
     border-style: solid;
     border-width: 2px;
-    margin-left: 10%;
+    margin: 5% 5% 10%;
+
 }
 label{
     padding-left: 20px;
