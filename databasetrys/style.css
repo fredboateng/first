@@ -11,9 +11,10 @@ form{
 }
 input{
     height: 50px;
-    width: 90%;
+    width: 80%;
     border-style: solid;
     border-width: 2px;
+    padding-left:10%;
     margin: 10px;
 }
 label{
