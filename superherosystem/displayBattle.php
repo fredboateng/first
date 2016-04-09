@@ -14,10 +14,10 @@
     include ("connection.php");
     if(isset($_GET['id'])){
         $superheroID = $_GET['id'];
-        $sql_query = "SELECT * FROM superheroBattles WHERE superheroID = '$superheroID'";
+        $sql_query = "SELECT * FROM superherobattles WHERE superheroID = '$superheroID'";
     }
     else {
-        $sql_query = "SELECT * FROM superbattles";
+        $sql_query = "SELECT * FROM superherobattles";
     }
 
     $result = $dp -> query($sql_query);
