@@ -12,7 +12,7 @@
 <main>
     <?
     include ("connection.php");
-    $sql_query = "SELECT * FROM battle";
+    $sql_query = "SELECT * FROM battles";
     $result = $db -> query($sql_query);
 
     while($row = $result -> fetch_array())
