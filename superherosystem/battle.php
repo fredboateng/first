@@ -12,7 +12,7 @@
 </header>
 <main>
     <form action="insertBattle.php" method="post">
-        <p>Select the superhero that faught in this battle</p> <select name = "superhero">
+        <p>Select the superhero that fought in this battle</p> <select name = "superhero">
             <?
             include ("connection.php");
             $sql_query = "SELECT * FROM superheros";
@@ -26,7 +26,7 @@
             }
             ?>
         </select><br>
-        <input type="text" name="villan" placeholder="Villian Faught"><br>
+        <input type="text" name="villan" placeholder="Villan Faught"><br>
         <input type="submit" value="Record Battle">
     </form>
 </main>
