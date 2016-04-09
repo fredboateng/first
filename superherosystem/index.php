@@ -6,23 +6,24 @@
 </head>
 <body>
 <header>
-    <h1>The Super-Superhero Systme</h1>
+    <h1>The Super-Superhero System</h1>
     <h2>Superhero Home Page</h2>
 </header>
 <p>What would like to do?</p>
 <ul>
-    <li><a href="superheroform.html">Insert a superhero</a> </li>
-    <li><a href="displaySuperheros.php">Display all superheros</a> </li>
-    <li><a href="battle.php">Insert a battle</a> </li>
-    <li><a href="battledisplay.php">Display Battles Only</a> </li>
-    <li><a href="displayBattle.php">Display all Battles</a> </li>
+    <li><a href="superheroform.html">Insert a superhero</a></li>
+    <li><a href="displaySuperheros.php">Display all superheros</a></li>
+    <li><a href="battle.php">Insert a battle</a></li>
+    <li><a href="battledisplay.php">Display Battles Only</a></li>
+    <li><a href="displayBattle.php">Display all Battles</a></li>
     <ul>
         <?
         include ("connection.php"); // adding the connection to the data base
         $sql_query = "SELECT * FROM superheros"; // sql query to select all records in the superheros table
         $result = $db->query($sql_query); // populate result with the query output
         // run throuh the result set
-        while($row = $result -> fetch_array()){
+        while($row = $result -> fetch_array())
+        {
             $firstname = $row['firstName'];
             $lastname = $row['lastName'];
             $id = $row['superheroID'];
@@ -32,7 +33,6 @@
         $db -> close();
         ?>
     </ul>
-
 </ul>
 </body>
 </html>
