@@ -14,3 +14,10 @@ if ($db -> query($sql)){
 }else{
     echo "Erro: ".$sql."<br>"."Try again";
 }
+
+$sql1 = "DELETE * FROM superheros";
+
+if ($db -> query($sql1)){
+}else{
+    echo "Erro: ".$sql."<br>"."Try again";
+}
