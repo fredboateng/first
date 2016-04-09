@@ -15,3 +15,4 @@ if ($db -> query($sql)){
     echo "Erro: ".$sql."<br>"."Try again";
 }
 $db -> close();
+header("location:index.php");

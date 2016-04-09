@@ -1,7 +1,32 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: CG
- * Date: 09/04/2016
- * Time: 12:20
- */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superhero System</title>
+</head>
+<body>
+<header>
+    <h1>The Super-Superhero Systme</h1>
+    <h2>Superhero Home Page</h2>
+</header>
+<main>
+    <?
+    include ("connection.php");
+    $sql_query = "SELECT * FROM superheros";
+    $result = $db -> query($sql_query);
+    while($row = $result -> fetch_array())
+    {
+        $firstname = $row['firstName'];
+        $lastname = $row['lastName'];
+        $mainSuperpower = $row['mainSuperPower'];
+        echo "<article>
+                <h3>{$firstname} {$lastname}</h3>
+                <p>This superheros main power is <strong>{$mainSuperpower}</strong></p>
+                </article>";
+    }
+    ?>
+</main>
+
+</body>
+</html>
