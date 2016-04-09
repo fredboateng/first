@@ -1,6 +1,6 @@
 <?php
 include ("connection.php");
-$superheroID = $_POST["superheroID"];
+$superheroID = $_POST["superhero"];
 $villan = $_POST["villan"];
 
 $sql = "INSERT INTO battles(superheroID, villanFought)VALUES ('$superheroID', '$villan')";
