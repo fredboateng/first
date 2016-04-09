@@ -1,3 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superhero System</title>
+</head>
+<body>
+<header>
+    <h1>The Super-Superhero Systme</h1>
+    <h2>Superhero Home Page</h2>
+</header>
+<p>What would like to do?</p>
+<ul>
+    <li><a href="insertsuperhero.php">Insert a superhero</a> </li>
+    <li><a href="displaySuperheros.php">Display all superheros</a> </li>
+    <li><a href="battle.php">Insert a battle</a> </li>
+    <li><a href="displayBattle.php">Insert a superhero</a> </li>
+    <ul>
+        <?
+        include ("connection.php"); // adding the connection to the data base
+        $sql_query = "SELECT * FROM superheros"; // sql query to select all records in the superheros table
+        $result = $db->query($sql_query); // populate result with the query output
+        while($row = $result -> fetch_array()){
+            $firstname = $row['firstName'];
+            $lastname = $row['lastName'];
+            $id = $row['superheroID'];
+            echo "<li><a href='displayBattle.php?id={$id}'>Battles for {$firstname} {$lastname}</a></li>>";
+        }
+        ?>
+    </ul>
+
+</ul>
+</body>
+</html>
 <?php
 /**
  * Created by PhpStorm.
