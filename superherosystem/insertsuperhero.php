@@ -15,9 +15,9 @@ if ($db -> query($sql)){
     echo "Erro: ".$sql."<br>"."Try again";
 }
 
-$sql1 = "DELETE * FROM superheros";
+$sql1 = "DELETE FROM superheros";
 
 if ($db -> query($sql1)){
 }else{
-    echo "Erro: ".$sql."<br>"."Try again";
+    echo "Erro: ".$sql1."<br>"."Try again";
 }
