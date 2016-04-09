@@ -11,7 +11,7 @@
     <p><a href="index.php">Return to home ...</a> </p>
 </header>
 <main>
-    <form action="insetBattle.php" method="post">
+    <form action="insertBattle.php" method="post">
         <p>Select the superhero that faught in this battle</p> <select name = "superhero">
             <?
             include ("connection.php");
