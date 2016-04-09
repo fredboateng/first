@@ -22,7 +22,6 @@
 
         echo "<article>
                 <h3>{$superhero} {$villanFought}</h3>
-                <p>This superheros main power is <strong>{$mainSuperpower}</strong></p>
                 </article>";
     }
     ?>
