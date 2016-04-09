@@ -28,6 +28,7 @@
             // displaying the superheros and linking them to their various battles
             echo "<li><a href='displayBattle.php?id={$id}'>Battles for {$firstname} {$lastname}</a></li>>";
         }
+        $db -> close();
         ?>
     </ul>
 
