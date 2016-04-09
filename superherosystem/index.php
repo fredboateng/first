@@ -14,8 +14,8 @@
     <li><a href="superheroform.html">Insert a superhero</a> </li>
     <li><a href="displaySuperheros.php">Display all superheros</a> </li>
     <li><a href="battle.php">Insert a battle</a> </li>
-    <li><a href="battledisplay.php">Insert a battle</a> </li>
-    <li><a href="displayBattle.php">Insert a superhero</a> </li>
+    <li><a href="battledisplay.php">Display Battles Only</a> </li>
+    <li><a href="displayBattle.php">Display all Battles</a> </li>
     <ul>
         <?
         include ("connection.php"); // adding the connection to the data base
