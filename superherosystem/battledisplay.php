@@ -17,7 +17,7 @@
 
     while($row = $result -> fetch_array())
     {
-        $superhero = $row['superhero'];
+        $superhero = $row['superheroID'];
         $villanFought = $row['villanFought'];
 
         echo "<article>
