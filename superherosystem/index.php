@@ -20,10 +20,12 @@
         include ("connection.php"); // adding the connection to the data base
         $sql_query = "SELECT * FROM superheros"; // sql query to select all records in the superheros table
         $result = $db->query($sql_query); // populate result with the query output
+        // run throuh the result set
         while($row = $result -> fetch_array()){
             $firstname = $row['firstName'];
             $lastname = $row['lastName'];
             $id = $row['superheroID'];
+            // displaying the superheros and linking them to their various battles
             echo "<li><a href='displayBattle.php?id={$id}'>Battles for {$firstname} {$lastname}</a></li>>";
         }
         ?>
