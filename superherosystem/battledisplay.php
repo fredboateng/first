@@ -8,6 +8,7 @@
 <header>
     <h1>The Super-Superhero System</h1>
     <h2>Superhero Home Page</h2>
+    <p><a href="index.php">Return to home ...</a> </p>
 </header>
 <main>
     <?

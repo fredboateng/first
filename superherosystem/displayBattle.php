@@ -30,7 +30,7 @@
 
         echo "<article>
             <p>The superhero known as <strong>{$firstname} {$lastname}</strong> recently fought
-            <strong>{$villanFought} using <strong>{$mainSuperpower}</strong></strong></p>
+            <strong>{$villanFought}</strong>using <strong>{$mainSuperpower}</strong></p>
         </article>";
     }
     ?>
