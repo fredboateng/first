@@ -8,4 +8,4 @@ if($username == "Fred" && $password =="123"){
 
 }
 
-header('location:loggedin.php');
+header('location:session/loggedin.php');
