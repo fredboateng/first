@@ -4,8 +4,8 @@ $password = $_POST['password'];
 
 if($username == "Fred" && $password =="123"){
     setcookie('access_level', 'root');
-    //setcookie('username', '');
-    $_COOKIE['username']=$username;
+    setcookie('username', 'Fred');
+
 }
 
 header('location:loggedin.php');
