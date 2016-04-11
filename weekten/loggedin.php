@@ -1,6 +1,10 @@
 <?php
 session_start();
 $accesslevel = $_COOKIE['access_level_cookie'];
+$username = $_COOKIE['username'];
+
+echo "<h3>Hello! {$username}</h3><br>";
+echo "<p>Your access level is {$accesslevel}</p>";
 
 displayAccessLevelInformation($accesslevel);
 
