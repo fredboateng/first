@@ -7,5 +7,9 @@ if($username == "Fred" && $password =="123"){
     set_session('username', 'Fred');
 
 }
-
-header('location:session/loggedin.php');
+else
+{
+    echo "erro";
+}
+header('location:loggedin.php');
+echo "here I am";

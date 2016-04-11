@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: CG
- * Date: 11/04/2016
- * Time: 23:56
- */
+
 session_start();
 $accesslevel = $_SESSION['access_level'];
 $username = $_SESSION['username'];
