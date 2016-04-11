@@ -1,10 +1,16 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: CG
+ * Date: 11/04/2016
+ * Time: 23:56
+ */
 session_start();
-$accesslevel = $_COOKIE['access_level'];
-$username = $_COOKIE['username'];
+$accesslevel = $_SESSION['access_level'];
+$username = $_SESSION['username'];
 
-echo "<h3>Hello! {$_COOKIE['username']}</h3><br>";
-echo "<p>Your access level is {$_COOKIE['access_level']}</p>";
+echo "<h3>Hello! {$username}</h3><br>";
+echo "<p>Your access level is {$accesslevel}</p>";
 
 displayAccessLevelInformation($accesslevel);
 
@@ -16,7 +22,7 @@ function displayAccessLevelInformation($accessLevel)
     }
     elseif($accessLevel == "root")
     {
-       echo "<p<p style = \"background-color: red\"\>You are currently logged in as a root user</p>";
-       echo "<p<p style = \"background-color: red\"\>You now have access to additional adminstrative features</p>";
+        echo "<p<p style = \"background-color: red\"\>You are currently logged in as a root user</p>";
+        echo "<p<p style = \"background-color: red\"\>You now have access to additional adminstrative features</p>";
     }
 }
