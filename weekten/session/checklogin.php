@@ -3,8 +3,8 @@ $username = $_POST["name"];
 $password = $_POST['password'];
 
 if($username == "Fred" && $password =="123"){
-    set_session('access_level', 'root');
-    set_session('username', 'Fred');
+    $_SESSION['access_level'] = "root";
+    $_SESSION['username'] = "Fred";
 
 }
 else
