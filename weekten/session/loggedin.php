@@ -5,7 +5,7 @@ $accesslevel = $_SESSION['access_level'];
 $username = $_SESSION['username'];
 
 echo "<h3>Hello! {$username}</h3><br>";
-echo "<p>Your access level is {$accesslevel}</p>";
+echo "<p>Your access level is <strong>{$accesslevel}</strong></p>";
 
 displayAccessLevelInformation($accesslevel);
 
