@@ -9,10 +9,3 @@ echo"<article>
 <strong>{$category}</strong>
 </article>";
 ?>
-
-/**
- * Created by PhpStorm.
- * User: 1312897
- * Date: 12/04/2016
- * Time: 10:59
- */
