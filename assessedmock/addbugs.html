@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <img src="assets/logo.png" alt = "Bug Logo">
+    <img src="assets/logo.png" alt = "Bug Logo" id="logo1">
     <h1>Bug Tracker</h1><br>
     <p>Keeping track of all the pesky little bugs</p>
 </header>
@@ -25,9 +25,15 @@
 <form>
     <label > Bug Name</label>
     <input type="text" name="bname" required/><br>
-    <textarea rows="5" cols="50">Bug Summary</textarea><br>
-
-
+    <label>Bug Summary</label>
+    <textarea rows="5" cols="50"></textarea><br>
+    <label>Bug Category</label>
+    <select>
+        <option value="android">Andriod</option>
+        <option value="ios">iOS</option>
+        <option value="windows">Windows</option>
+    </select><br>
+    <input type="submit" value="Summit">
 </form>
 </main>
 <footer>
