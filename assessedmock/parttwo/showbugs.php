@@ -32,6 +32,12 @@
         $result=$db->query($sql);
         while($row = $result->fetch_array())
         {
+            if(isset($_GET)){
+                $bugid = $_GET['id'];
+                $sql = "SELECT * FROM bugs WHERE bugID = $bugid";
+            }else{
+                $sql = "SELECT * FROM bugs";
+            }
             $bugname = $row['bugName'];
             $bugcategory = $row['BugCategory'];
             $bugsummary = $row['BugSummary'];
@@ -40,7 +46,7 @@
                   <p>{$bugcategory}</p>
                   <p>{$bugsummary}</p>
                   </article>";
-            echo "Good";
+
             echo '<hr>';
 
         }

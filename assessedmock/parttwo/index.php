@@ -23,11 +23,15 @@
                 include("connection.php");
                 $sql="SELECT * FROM bugs";
                 $result=$db->query($sql);
-
+                while($row = $result->fetch_array()) {
+                    $bugID =$row['bugID'];
+                    $bugname = $row['bugName'];
+                    $bugcategory = $row['BugCategory'];
+                    $bugsummary = $row['BugSummary'];
+                    echo "<li><a href='showbugs.php?id={$bugID}'>{$bugcategory}</a></li>";
+                }
+                $db->close();
                 ?>
-                <li><a href="showbugs.php">Android Bugs</a> </li>
-                <li><a href="showbugs.php">iOS Bugs</a> </li>
-                <li><a href="showbugs.php">Windows Bugs</a> </li>
                 <li><a href="addbugs.php">Insert Bugs</a> </li>
             </ul>
         </nav>
