@@ -14,3 +14,8 @@ header{
     height: 150px;
     float: left;
 }
+#table2, th, td{
+    border: solid;
+    border-width: 1px;
+    border-color: aqua;
+}

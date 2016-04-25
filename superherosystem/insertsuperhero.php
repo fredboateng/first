@@ -12,7 +12,7 @@ $sql = "INSERT INTO superheros(firstName, lastName, mainSuperPower) VALUES ('$fi
 // inserting into the database
 if ($db -> query($sql)){
 }else{
-    echo "Erro: ".$sql."<br>"."Try again";
+    echo "Error: ".$sql."<br>"."Try again";
 }
 $db -> close();
 header("location:index.php");
