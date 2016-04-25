@@ -18,11 +18,11 @@
     <aside class="grid-33 mobile-grid-33">
         <nav>
             <ul>
-                <li><a href="showbugs.php">All Buggggggggggggg Items</a> </li>
+                <li><a href="showbugs.php">All Bugg Items</a> </li>
 
                 <?
 
-                /**include("connection.php");
+                include("connection.php");
                 $sql="SELECT * FROM bugs";
                 $result=mysqli_query($db,$sql);
                 while($row = $result->fetch_array()) {
@@ -32,7 +32,7 @@
                     $bugsummary = $row['BugSummary'];
                     echo "<li><a href=\"showbugs.php?id={$bugID}\">{$bugcategory}</a></li>";
                 }
-                $db->close();**/
+                $db->close();
                 ?>
 
                 <li><a href="addbugs.php">Insert Bugs</a> </li>
