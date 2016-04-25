@@ -31,9 +31,9 @@
         if(isset($_GET)){
             $bugid = $_GET['id'];
             $sql = "SELECT * FROM bugs WHERE bugID = $bugid";
-        }else{
-            $sql = "SELECT * FROM bugs";
         }
+            $sql = "SELECT * FROM bugs";
+
         $result=$db->query($sql);
         while($row = $result->fetch_array())
         {
