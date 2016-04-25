@@ -22,7 +22,7 @@
                 <?
                 include("connection.php");
                 $sql="SELECT * FROM bugs";
-                $result=$db->query($sql);
+                $result=mysqli_query($db,$sql);
                 while($row = $result->fetch_array()) {
                     $bugID =$row['bugID'];
                     $bugname = $row['bugName'];
