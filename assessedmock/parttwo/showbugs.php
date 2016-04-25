@@ -29,8 +29,8 @@
         <?
         include("connection.php");
         if(isset($_GET)){
-            $bugid = $_GET['id'];
-            $sql = "SELECT * FROM bugs WHERE BugCategory = $bugid";
+            $bugcat = $_GET['bugcat'];
+            $sql = "SELECT * FROM bugs WHERE BugCategory = $bugcat";
         }else{
             $sql = "SELECT * FROM bugs";
         }
