@@ -28,8 +28,6 @@
     <section class="grid-66 mobile-grid-66">
         <?
         include("connection.php");
-        $sql="SELECT * FROM bugs";
-        $result=$db->query($sql);
         while($row = $result->fetch_array())
         {
             if(isset($_GET)){
@@ -38,6 +36,7 @@
             }else{
                 $sql = "SELECT * FROM bugs";
             }
+            $result=$db->query($sql);
             $bugname = $row['bugName'];
             $bugcategory = $row['BugCategory'];
             $bugsummary = $row['BugSummary'];
