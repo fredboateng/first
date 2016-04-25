@@ -36,7 +36,7 @@
             $bugcategory = $row['BugCategory'];
             $bugsummary = $row['BugSummary'];
             echo "<article>
-                  <p><strong>{$bugname}</strong></p>
+                  <p>{$bugname}</p>
                   <p>{$bugcategory}</p>
                   <p><strong>{$bugsummary}</strong></p>
                   </article>";
