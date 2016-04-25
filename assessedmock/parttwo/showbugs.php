@@ -40,6 +40,7 @@
                   <p>{$bugcategory}</p>
                   <p>{$bugsummary}</p>
                   </article>";
+            echo "hr";
         }
         $db->close();
         ?>
