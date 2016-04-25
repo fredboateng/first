@@ -28,7 +28,7 @@
                     $bugname = $row['bugName'];
                     $bugcategory = $row['BugCategory'];
                     $bugsummary = $row['BugSummary'];
-                    echo "<li><a href='showbugs.php?id={$bugID}'>{$bugname}</a></li>";
+                    echo "<li><a href='showbugs.php?id={$bugID}'>{$bugcategory}</a></li>";
                 }
                 $db->close();
                 ?>
