@@ -38,7 +38,7 @@
             echo "<article>
                   <p>{$bugname}</p>
                   <p>{$bugcategory}</p>
-                  <p><strong>{$bugsummary}</strong></p>
+                  <p>{$bugsummary}</p>
                   </article>";
         }
         $db->close();
