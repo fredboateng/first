@@ -18,7 +18,7 @@
     <aside class="grid-33 mobile-grid-33">
         <nav>
             <ul>
-                <li><a href="showbugs.php">All Bug Items</a> </li>
+                <li><a href="showbugs.php">All Buggggggggggggg Items</a> </li>
                 <?
                 include("connection.php");
                 $sql="SELECT * FROM bugs";
