@@ -45,6 +45,7 @@
             $bugID = $_GET['id'];
             $sql = "SELECT * FROM bugs WHERE bugID = $bugID";
         }else{
+            echo "I am here";
             $sql = "SELECT * FROM bugs";
         }
 
