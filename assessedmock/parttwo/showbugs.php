@@ -32,7 +32,7 @@
             </p>";
     }
 */echo"<p>Keeping track of all the pesky little bugs<br>
-            You are in the {$bugcategory} category
+            You are in the ".$bugcategory." category
             </p>";
     ?>
 </header>
