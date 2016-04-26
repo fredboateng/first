@@ -1,0 +1,24 @@
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: auto;
+}
+header{
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+}
+#headerlogo{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+#table2, th, td{
+    border: solid;
+    border-width: 1px;
+    border-color: aqua;
+}
+span{
+    margin-top: 50px;
+}
