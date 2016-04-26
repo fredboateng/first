@@ -43,9 +43,9 @@
     <section class="grid-66 mobile-grid-66">
         <?
         include("connection.php");
-        if(isset($_GET['id'])){
-            $bugID = $_GET['id'];
-            $sql = "SELECT * FROM bugs WHERE bugID = $bugID";
+        if(isset($_GET['bugcategory'])){
+            $bugcategory = $_GET['bugcategory'];
+            $sql = "SELECT * FROM bugs WHERE bugID = $bugcategory";
         }else{
             echo "I am here";
             $sql = "SELECT * FROM bugs";
