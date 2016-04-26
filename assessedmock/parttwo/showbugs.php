@@ -45,7 +45,7 @@
         include("connection.php");
         if(isset($_GET['bugcategory'])){
             $bugcategory = $_GET['bugcategory'];
-            $sql = "SELECT * FROM bugs WHERE bugID = $bugcategory";
+            $sql = "SELECT * FROM bugs WHERE bugID = '$bugcategory'";
         }else{
             echo "I am here";
             $sql = "SELECT * FROM bugs";
