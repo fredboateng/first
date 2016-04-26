@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <img src="assets/logo.png" alt = "Bug Logo" id="headerlogo">
+    <img src="./assets/logo.png" alt = "Bug Logo" id="headerlogo">
     <span>
     <strong>Bug Tracker</strong><br>
     Keeping track of all the pesky little bugs
