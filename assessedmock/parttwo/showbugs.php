@@ -18,8 +18,11 @@
         <nav>
             <ul>
                 <li><a href="showbugs.php">All Bugg Items</a> </li>
-
-                <?
+                <li><a href="showbugs.php">Android Bugs</a> </li>
+                <li><a href="showbugs.php">iOS Bugs</a> </li>
+                <li><a href="showbugs.php">Windows Bugs</a> </li>
+                <li><a href="addbugs.php">Insert Bugs</a> </li>
+                <?/*
 
                 include("connection.php");
                 $sql="SELECT * FROM bugs";
@@ -31,10 +34,9 @@
                     $bugsummary = $row['BugSummary'];
                     echo "<li><a href='showbugs.php?id={$bugID}'>{$bugcategory}</a></li>";
                 }
-                //$db->close();
+                //$db->close();**/
                 ?>
 
-                <li><a href="addbugs.php">Insert Bugs</a> </li>
             </ul>
         </nav>
     </aside>
