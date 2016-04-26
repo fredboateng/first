@@ -22,7 +22,8 @@
                 <li><a href="showbugs.php">iOS Bugs</a> </li>
                 <li><a href="showbugs.php">Windows Bugs</a> </li>
                 <li><a href="addbugs.php">Insert Bugs</a> </li>
-                <?/*
+                <?php
+                /*
 
                 include("connection.php");
                 $sql="SELECT * FROM bugs";
