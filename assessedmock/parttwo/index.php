@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mock Lab</title>
-    <link type="text/css" rel="stylesheet" href="assets/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/style.css" /><!-- css-->
     <link type="text/css" rel="stylesheet" href="assets/unsemantic-grid-responsive-tablet.css"/>
 </head>
 <body>
