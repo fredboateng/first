@@ -57,7 +57,7 @@
             <tr>
                 <td><label>Bug Category</label></td>
                 <td><select name='category' required>
-                    <option >Select</option>
+                    <option value='' selected disabled>Select</option>
                     <option value=\"android\">Andriod</option>
                     <option value=\"ios\">iOS</option>
                     <option value=\"windows\">Windows</option>
