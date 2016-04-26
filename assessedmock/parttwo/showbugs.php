@@ -17,11 +17,24 @@
     <aside class="grid-33 mobile-grid-33">
         <nav>
             <ul>
-                <li><a href="bugs.html">All Bug Items</a> </li>
-                <li><a href="bugs.html">Android Bugs</a> </li>
-                <li><a href="bugs.html">iOS Bugs</a> </li>
-                <li><a href="bugs.html">Windows Bugs</a> </li>
-                <li><a href="bugs.html">Insert Bugs</a> </li>
+                <li><a href="showbugs.php">All Bugg Items</a> </li>
+
+                <?
+
+                include("connection.php");
+                $sql="SELECT * FROM bugs";
+                $result=mysqli_query($db,$sql);
+                while($row = $result->fetch_array()) {
+                    $bugID =$row['bugID'];
+                    $bugname = $row['bugName'];
+                    $bugcategory = $row['BugCategory'];
+                    $bugsummary = $row['BugSummary'];
+                    echo "<li><a href='showbugs.php?id={$bugID}'>{$bugcategory}</a></li>";
+                }
+                //$db->close();
+                ?>
+
+                <li><a href="addbugs.php">Insert Bugs</a> </li>
             </ul>
         </nav>
     </aside>
