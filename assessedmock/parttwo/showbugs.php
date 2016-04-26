@@ -41,7 +41,7 @@
         </nav>
     </aside>
     <section class="grid-66 mobile-grid-66">
-        <?
+        <?php
         include("connection.php");
         if(isset($_GET['bugcategory'])){
             $bugcategory = $_GET['bugcategory'];
