@@ -13,27 +13,22 @@
     <h1>Bug Tracker</h1><br>
 
     <?php
-    $bugcategory=$_GET['$bugcategory'];
-    /**
-    if(isset($_GET['bugcategory'])){
-    $bugcategory = $_GET['bugcategory'];
-    $sql = "SELECT * FROM bugs WHERE BugCategory = '$bugcategory'";
-        $result=$db->query($sql);
-        $row=$result->fetch_array();
-        $bugcategory=$row['BugCategory'];
-        echo"<p>Keeping track of all the pesky little bugs<br>
+    if(isset($_GET['bugcategory'])) {
+        $bugcategory = $_GET['bugcategory'];
+        $sql = "SELECT * FROM bugs WHERE BugCategory = '$bugcategory'";
+        $result = $db->query($sql);
+        $row = $result->fetch_array();
+        $bugcategory = $row['BugCategory'];
+        echo "<p>Keeping track of all the pesky little bugs<br>
             You are in the {$bugcategory} category
             </p>";
 
-
+    }
     else{
         echo"<p>Keeping track of all the pesky little bugs<br>
             You are looking all the in our database
             </p>";
     }
-*/echo"<p>Keeping track of all the pesky little bugs<br>
-            You are in the ".'$bugcategory'." category
-            </p>";
     ?>
 </header>
 
