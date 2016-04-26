@@ -7,10 +7,29 @@
     <link rel="stylesheet" href="assets/unsemantic-grid-responsive-tablet.css" />
 </head>
 <body>
+<?include("connection.php");?>
 <header>
     <a href="index.php"><img src="assets/logo.png" alt = "Bug Logo" id="headerlogo"></a>
     <h1>Bug Tracker</h1><br>
-    <p>Keeping track of all the pesky little bugs</p>
+
+    <?
+    if(isset($_GET['bugcategory'])){
+    $bugcategory = $_GET['bugcategory'];
+    $sql = "SELECT * FROM bugs WHERE BugCategory = '$bugcategory'";
+        $result=$db->query($sql);
+        $row=$result->fetch_array();
+        $bugcategory=$row['BugCategory'];
+        echo"<p>Keeping track of all the pesky little bugs<br>
+            You are in the {$bugcategory} category
+            </p>";
+    }
+    else{
+        echo"<p>Keeping track of all the pesky little bugs<br>
+            You are looking all the in our database
+            </p>";
+    }
+
+    ?>
 </header>
 
 <main class="grid-container">
@@ -43,11 +62,12 @@
     </aside>
     <section class="grid-66 mobile-grid-66">
         <?php
-        include("connection.php");
+
         if(isset($_GET['bugcategory'])){
             $bugcategory = $_GET['bugcategory'];
             $sql = "SELECT * FROM bugs WHERE BugCategory = '$bugcategory'";
-        }else{
+        }
+        else{
             echo "I am here";
             $sql = "SELECT * FROM bugs";
         }

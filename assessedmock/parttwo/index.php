@@ -13,6 +13,7 @@
     <strong>Bug Tracker</strong><br>
     Keeping track of all the pesky little bugs
     </span>
+
 </header>
 <main class="grid-container">
     <aside class="grid-33 mobile-grid-33">
