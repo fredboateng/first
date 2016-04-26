@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-    <img src="./assets/logo.png" alt = "Bug Logo" id="headerlogo">
+    <img src="logo.png" alt = "Bug Logo" id="headerlogo">
     <span>
     <strong>Bug Tracker</strong><br>
     Keeping track of all the pesky little bugs
@@ -23,7 +23,7 @@
                 <li><a href="showbugs.php">iOS Bugs</a> </li>
                 <li><a href="showbugs.php">Windows Bugs</a> </li>
                 <li><a href="addbugs.php">Insert Bugs</a> </li>
-                <?/*
+                <?php/*
 
                 include("connection.php");
                 $sql="SELECT * FROM bugs";
