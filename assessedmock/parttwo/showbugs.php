@@ -12,7 +12,9 @@
     <a href="index.php"><img src="assets/logo.png" alt = "Bug Logo" id="headerlogo"></a>
     <h1>Bug Tracker</h1><br>
 
-    <?
+    <?php
+    $bugcategory=$_GET['$bugcategory'];
+    /**
     if(isset($_GET['bugcategory'])){
     $bugcategory = $_GET['bugcategory'];
     $sql = "SELECT * FROM bugs WHERE BugCategory = '$bugcategory'";
@@ -22,13 +24,16 @@
         echo"<p>Keeping track of all the pesky little bugs<br>
             You are in the {$bugcategory} category
             </p>";
-    }
+
+
     else{
         echo"<p>Keeping track of all the pesky little bugs<br>
             You are looking all the in our database
             </p>";
     }
-
+*/echo"<p>Keeping track of all the pesky little bugs<br>
+            You are in the {$bugcategory} category
+            </p>";
     ?>
 </header>
 
