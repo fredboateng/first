@@ -22,7 +22,8 @@
                 <li><a href="showbugs.php">iOS Bugs</a> </li>
                 <li><a href="showbugs.php">Windows Bugs</a> </li>
                 <li><a href="addbugs.php">Insert Bugs</a> </li>
-                <?/*
+                <?php
+                /*
 
                 include("connection.php");
                 $sql="SELECT * FROM bugs";
@@ -41,7 +42,7 @@
         </nav>
     </aside>
     <section class="grid-66 mobile-grid-66">
-        <?
+        <?php
         include("connection.php");
         if(isset($_GET['bugcategory'])){
             $bugcategory = $_GET['bugcategory'];
