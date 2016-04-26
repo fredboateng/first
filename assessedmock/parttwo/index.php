@@ -21,7 +21,7 @@
                 <li><a href="showbugs.php?bugcategory=all">All Bug Items</a> </li>
                 <li><a href="showbugs.php?bugcategory=android">Android Bugs</a> </li>
                 <li><a href="showbugs.php?bugcategory=ios">iOS Bugs</a> </li>
-                <li><a href="showbugs.phpb?bugcategory=windows">Windows Bugs</a> </li>
+                <li><a href="showbugs.php?bugcategory=windows">Windows Bugs</a> </li>
                 <li><a href="addbugs.php">Insert Bugs</a> </li>
 
                 <?php/*
