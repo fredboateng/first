@@ -44,8 +44,39 @@
         include("connection.php");
             if($_SERVER['REQUEST_METHOD']==='GET'){
                 echo
+
                 "<form action=\"addbugs.php\" method=\"post\">
-                      <table>
+
+                    <ul class=\"form-style-1\">
+
+        <li>
+            <label>Bug Name<span class=\"required\">*</span>
+                <input type=\"text\" name=\"bname\" class=\"field-long\" />
+            </label>
+        </li>
+
+        <li>
+            <label>Bug Summary<span class=\"required\">*</span>
+                <textarea name=\"bugsummary\" id=\"field5\" class=\"field-long field-textarea\"></textarea>
+            </label>
+        </li>
+
+        <li>
+            <label>Bug Category
+                <select name=\"category\" class=\"field-select\" required>
+                    <option value=\"\" selected disabled>Select</option>
+                    <option value=\"android\">Android</option>
+                    <option value=\"ios\">iOS</option>
+                    <option value=\"windows\">Windows</option>
+                </select>
+            </label>
+        </li>
+
+        <li>
+            <input type=\"submit\" value=\"Submit\" />
+        </li>
+    </ul>
+                   <!--   <table>
             <tr>
                 <td><label>Bug Name</label></td>
                 <td><input type=\"text\" name=\"bname\" required/></td>
@@ -67,7 +98,7 @@
             <tr>
                 <td><input type=\"submit\" value=\"Summit\"></td>
             </tr>
-        </table>
+        </table> -->
             </form>";
             }
 
