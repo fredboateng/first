@@ -1,4 +1,4 @@
-@import "templatecolours.css";
+/*@import "templatecolours.css";*/
 body{
     max-width: 960px;
     margin-left: auto;
@@ -21,4 +21,93 @@ nav>ul>li a{
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
+}
+nav>ul>li a:hover{
+    color: #4691A4;
+    background-color: #782A7E;
+}
+#logo{
+    max-width: 300px;
+}
+#banner{
+    max-width: 960px;
+}
+#chris{
+    max-width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+h1{
+    font-family:'Roboto',sans-serif;
+    font-weight: 300;
+}
+p,h2,h3,h4,h5,a{
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+}
+h3,h4,h5{
+    font-family:'Roboto',sans-serif;
+    font-weight: 700;
+}
+#news{
+    background-color: #DBC9DF;
+}
+#events{
+    background-color: #363636;
+}
+aside p,h3,h4{
+    color: white;
+}
+
+aside h3{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside h4{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside p{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+aside {
+    padding-right: 0px;!important;
+    padding-top: -5px;!important;
+}
+main{
+    padding-right: 0px;!important;
+}
+
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+a{
+    font-size: 13px;
+}
+footer>p{
+    max-width:150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+footer{
+    background-color: #363636;
 }
