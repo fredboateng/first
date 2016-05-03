@@ -86,3 +86,35 @@ footer{
     background-color: #782A7E;
 }
 
+/*
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+    overflow: auto;
+}
+
+/** if you want ur codes to be in a straight.......
+ul>li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: navy;
+    padding: 10px 0 8px 10px;
+    text-decoration: none;
+
+}
+
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:darkred;
+
+}
+
+
+*/
