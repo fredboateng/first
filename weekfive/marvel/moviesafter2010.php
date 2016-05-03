@@ -36,6 +36,7 @@ $result = mysqli_query($db,$sql);
             echo "<td>".$row['yearReleased']."</td>>";
             echo "</tr>";
         }
+        $db->close();
         ?>
     </table>
 </main>

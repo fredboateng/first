@@ -37,6 +37,7 @@ $result = mysqli_query($db,$sql);
                 echo "<td>".$row['productionStudio']."</td>>";
                 echo "</tr>";
             }
+        $db->close();
         ?>
     </table>
 </main>

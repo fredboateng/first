@@ -41,6 +41,7 @@ $result = mysqli_query($db,$sql);
                 echo "<td>". $row['notes']."</td>";
                 echo "</tr>";
             }
+        $db->close();
         ?>
     </table>
 </main>
