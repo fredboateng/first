@@ -24,7 +24,7 @@ if(empty($_POST["username"])||empty($_POST["password"])){
 
      } else {
          echo "Incorrect username or password.";
-
+         header("location:index.php");
      }
 }
 ?>
