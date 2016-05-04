@@ -25,7 +25,7 @@
     }
     else{
         echo"<p>Keeping track of all the pesky little bugs<br>
-            You are looking all the in our database
+            You are looking all the bugs in our database
             </p>";
     }
     ?>
